@@ -1,15 +1,10 @@
 ---
-title: Ci Code Review Env Environment Server
-emoji: 🖱️
-colorFrom: green
-colorTo: blue
+title: CI Code Review Env
+emoji: 🤖
+colorFrom: blue
+colorTo: green
 sdk: docker
-app_file: server/app.py  
 pinned: false
-app_port: 7860
-base_path: /web
-tags:
-  - openenv
 ---
 
 # Ci Code Review Env Environment
