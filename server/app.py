@@ -36,7 +36,7 @@ except Exception as e:  # pragma: no cover
     ) from e
 
 try:
-    from ..models import CiCodeReviewAction, CiCodeReviewObservation
+    from models import CiCodeReviewAction, CiCodeReviewObservation
     from .ci_code_review_env_environment import CiCodeReviewEnvironment
 except ModuleNotFoundError:
     from models import CiCodeReviewAction, CiCodeReviewObservation
